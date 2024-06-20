@@ -6,22 +6,25 @@
 - Modified(M) - Files that are being tracked by git and have been modified
 - Staged(S) - Files that are being tracked by git and have been staged
 
-### Commands
+### Staging Files
 - `git add <file/path>` - Add a file to the staging area (changing status from Untracked to Added)
 - `git add .` - Add all files to the staging area
 
 > Making changes to a file will change the status from Added to Modified
 
+### Removing files from staged area
 - `git rm <file/path>` - Remove a file from the staging area
 - `git rm --cached <file/path>` - Remove a file from the staging area but keep it in the working directory
 - `git rm -f <file/path>` - Remove a file from the staging area and the working directory (Deletes the file)
 
 - `git commit -m "<message>"` - Commit the changes in the staging area to the repository (changing status from Added to Modified)
 
+### Showing file differences
 - `git diff` - Show the changes made to the files
 - `git diff --staged` - Show the changes made to the files in the staging area
 > Press `q` to exit the diff view
 
+### View Commit Logs
 - `git log` - Show the commit history
 - `git log --oneline` - Show the commit history in a single line
 - `git log --oneline --graph` - Show the commit history in a single line with a graph
@@ -31,11 +34,12 @@
 
 - `git blame <file>` - Show the changes made in a file and who made them
 
+### Undoing Changes
 - `git reset HEAD <file>` - Remove a file from the staging area
 - `git reset --hard <commit>` - Reset the repository to a specific commit
 - `git revert <commit>` - Revert the changes made in a commit (creates a new commit)
 
-
+### Managing Remotes (GitHub, GitLab, Bitbucket)
 - `git remote -v` - Show the remote repositories
 - `git remote add <name> <url>` - Add a remote repository
 - `git remote remove <name>` - Remove a remote repository
