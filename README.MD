@@ -34,3 +34,10 @@
 - `git reset HEAD <file>` - Remove a file from the staging area
 - `git reset --hard <commit>` - Reset the repository to a specific commit
 - `git revert <commit>` - Revert the changes made in a commit (creates a new commit)
+
+
+- `git remote -v` - Show the remote repositories
+- `git remote add <name> <url>` - Add a remote repository
+- `git remote remove <name>` - Remove a remote repository
+- `git remote rename <old-name> <new-name>` - Rename a remote repository
+
