@@ -41,3 +41,12 @@
 - `git remote remove <name>` - Remove a remote repository
 - `git remote rename <old-name> <new-name>` - Rename a remote repository
 
+> When we revert a commit on local machine, the remote machine HEAD is still on something else, so we push using force
+- `git push origin <branch> --force` - Push the changes to the remote repository
+
+## Branches
+
+- `git branch` - Show the branches
+- `git branch <name>` - Create a branch
+- `git branch -d <name>` - Delete a branch
+- `git branch -m <old-name> <new-name>` - Rename a branch
