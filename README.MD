@@ -15,3 +15,9 @@
 - `git rm <file/path>` - Remove a file from the staging area
 - `git rm --cached <file/path>` - Remove a file from the staging area but keep it in the working directory
 - `git rm -f <file/path>` - Remove a file from the staging area and the working directory (Deletes the file)
+
+- `git commit -m "<message>"` - Commit the changes in the staging area to the repository (changing status from Added to Modified)
+
+- `git diff` - Show the changes made to the files
+- `git diff --staged` - Show the changes made to the files in the staging area
+> Press `q` to exit the diff view
