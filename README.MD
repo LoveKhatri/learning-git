@@ -50,3 +50,4 @@
 - `git branch <name>` - Create a branch
 - `git branch -d <name>` - Delete a branch
 - `git branch -m <old-name> <new-name>` - Rename a branch
+- `git checkout <branch>` - Switch to a branch
