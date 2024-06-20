@@ -21,3 +21,10 @@
 - `git diff` - Show the changes made to the files
 - `git diff --staged` - Show the changes made to the files in the staging area
 > Press `q` to exit the diff view
+
+- `git log` - Show the commit history
+- `git log --oneline` - Show the commit history in a single line
+- `git log --oneline --graph` - Show the commit history in a single line with a graph
+
+- `git show <commit>` - Show the changes made in a commit
+- `git show <commit>:<file>` - Show the changes made in a file in a commit
